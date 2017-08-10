@@ -26,7 +26,7 @@ The same thing is with /dict (e.g. /dict onw > on my way)
 -----------
 
 # Commands?
-1. OK, here are __some__ of the commands you probably will use.
+1. OK, here are __some__ of the commands you will probably use.
 
 `/add WORD` = Add a new word to the wordlist.
 

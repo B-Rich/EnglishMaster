@@ -70,3 +70,7 @@ __There are many other admin tools which you don't need to know right now.__
 
 # Special message from the bot:
 1. `Your grammar sucks, get on my level.`
+
+----------
+[Just for now]
+Technology graphic by <a href="http://www.flaticon.com/authors/pixel-buddha">pixel_buddha</a> from <a href="http://www.flaticon.com/">Flaticon</a> is licensed under <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>.

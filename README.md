@@ -55,8 +55,14 @@ __There are many other admin tools which you don't need to know right now.__
 1. Yes; here is a demo of correcting grammar in Telegram:
 ![Demo](https://i.imgur.com/dz0Ohef.png)
 
-2. I will post a pic later for the translation demo.
+2. Translation demo; please don't cringe if you're Russian or Japanese, i used Google Translate to make this possible.
+![Demo](https://i.imgur.com/lH4LvmE.png)
 
+3. Automatic deletion; input.
+![Demo](https://i.imgur.com/ddd0xee.png)
+
+3. Automatic deletion; output.
+![Demo](https://i.imgur.com/reSkzu1.png)
 -----------
 
 # License
@@ -72,5 +78,5 @@ __There are many other admin tools which you don't need to know right now.__
 1. `Your grammar sucks, get on my level.`
 
 ----------
-[Just for now]
+[Just for now, the logo might change. I used logomkr.com OKAY? OKAY? ]
 Technology graphic by <a href="http://www.flaticon.com/authors/pixel-buddha">pixel_buddha</a> from <a href="http://www.flaticon.com/">Flaticon</a> is licensed under <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0">CC BY 3.0</a>.

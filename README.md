@@ -59,9 +59,11 @@ __There are many other admin tools which you don't need to know right now.__
 ![Demo](https://i.imgur.com/lH4LvmE.png)
 
 3. Automatic deletion; input.
+
 ![Demo](https://i.imgur.com/ddd0xee.png)
 
 3. Automatic deletion; output.
+
 ![Demo](https://i.imgur.com/reSkzu1.png)
 -----------
 

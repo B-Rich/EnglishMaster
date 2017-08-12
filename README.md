@@ -81,7 +81,7 @@ Right now i'm a bit lazy to say what all of those commands do, but i will just c
     dp.add_handler(MessageHandler(Filters.text, echo))
 ```
 
-__There are many other admin tools which you don't need to know right now.__
+__You don't really need to know about all of them; stuff like `reply_id` and `get_id` are used for the development process__
 
 -----------
 

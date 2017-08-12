@@ -77,8 +77,10 @@ Right now i'm a bit lazy to say what all of those commands do, but i will just c
     dp.add_handler(CommandHandler("ud", define_word))
     dp.add_handler(CommandHandler("def", define_word))
     dp.add_handler(CommandHandler("auto_gc", auto_gc))
-    dp.add_handler(CommandHandler("print_set", print_settings))
-
+    dp.add_handler(CommandHandler("print_set", print_settings)) 
+    dp.add_handler(CommandHandler("import", import_settings)) # even tho your settings are saved automatically
+    dp.add_handler(CommandHandler("save", save_settings)) # even tho your settings are saved automatically
+    
     # on noncommand i.e message - echo the message on Telegram
     dp.add_handler(MessageHandler(Filters.text, echo))
 ```

@@ -47,6 +47,8 @@ The same thing is with /dict (e.g. /dict onw > on my way)
 
 `/translate (reply_to_message)` = automatically detects the message's language and translates it to English.
 
+`/ud WORD` = get the meaning of WORD.
+
 __There are many other admin tools which you don't need to know right now.__
 
 -----------
@@ -65,6 +67,10 @@ __There are many other admin tools which you don't need to know right now.__
 3. Automatic deletion; output.
 
 ![Demo](https://i.imgur.com/reSkzu1.png)
+
+4. Urban Dictionary in the bot.
+
+![Demo](https://i.imgur.com/K7U2C4K.png)
 -----------
 
 # License

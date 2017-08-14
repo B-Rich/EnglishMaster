@@ -52,37 +52,42 @@ The same thing is with /dict (e.g. /dict onw > on my way)
 Right now i'm a bit lazy to say what all of those commands do, but i will just copy the CommandHandlers/MessageHandlers from  my bot and paste them here.
 ```
     dp.add_handler(CommandHandler("start", start))
+
     dp.add_handler(CommandHandler("help", help))
-    dp.add_handler(CommandHandler("add", add))
-    dp.add_handler(CommandHandler("accept", accept))
-    dp.add_handler(CommandHandler("del", remove))
+
     dp.add_handler(CommandHandler("about", about))
-    dp.add_handler(CommandHandler("py", py))
+
+
+    dp.add_handler(CommandHandler("dict", add_dict))
+    dp.add_handler(CommandHandler("add", add))
+    dp.add_handler(CommandHandler("del", remove))
+    dp.add_handler(CommandHandler("accept", accept))
+
+    dp.add_handler(CommandHandler("restart", restart))
+
     dp.add_handler(CommandHandler("dict", add_dict))
     dp.add_handler(CommandHandler("restart", restart))
+
     dp.add_handler(CommandHandler("correct", correct))
     dp.add_handler(CommandHandler("c", correct))
-    dp.add_handler(CommandHandler("get_id", get_id))
-    dp.add_handler(CommandHandler("reply_id", reply_id))
+
     dp.add_handler(CommandHandler("channel", channel))
     dp.add_handler(CommandHandler("credits", credits))
-    dp.add_handler(CommandHandler("detect", detect))
-    dp.add_handler(CommandHandler("md", md))
-    dp.add_handler(CommandHandler("tgc", test_gc))
+
+
     dp.add_handler(CommandHandler("t", translate))
     dp.add_handler(CommandHandler("translate", translate))
-    dp.add_handler(CommandHandler("user_id", usr_id))
-    dp.add_handler(CommandHandler("del_test", del_test))
-    dp.add_handler(CommandHandler("x", get_something))
+    dp.add_handler(CommandHandler("detect", detect))
+
     dp.add_handler(CommandHandler("ud", define_word))
     dp.add_handler(CommandHandler("def", define_word))
+
+    dp.add_handler(CommandHandler("auto_tlc", auto_tlc))
     dp.add_handler(CommandHandler("auto_gc", auto_gc))
-    dp.add_handler(CommandHandler("print_set", print_settings)) 
-    dp.add_handler(CommandHandler("import", import_settings)) # even tho your settings are saved automatically
-    dp.add_handler(CommandHandler("save", save_settings)) # even tho your settings are saved automatically
-    
-    # on noncommand i.e message - echo the message on Telegram
-    dp.add_handler(MessageHandler(Filters.text, echo))
+    dp.add_handler(CommandHandler("auto_gd", auto_gd))
+    dp.add_handler(CommandHandler("auto_td", auto_td))
+    dp.add_handler(CommandHandler("check_settings", print_settings))
+
 ```
 
 __You don't really need to know about all of them; stuff like `reply_id` and `get_id` are used for the development process__
